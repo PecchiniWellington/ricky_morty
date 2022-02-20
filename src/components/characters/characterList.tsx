@@ -130,7 +130,7 @@ const CharacterList = () => {
 
   useEffect(() => {
     setLocalStorageValue(favourite)
-  }, [favourite])
+  }, [favourite, setLocalStorageValue])
 
   if (isLoading) {
     return <Spinner />

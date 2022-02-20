@@ -26,9 +26,9 @@ const CharacterCard = ({ character, favouriteCard, onOpenDetail, sendToParent , 
       </div>
       {
         !favouriteCard &&
-        <a className="icon icon_favourite_container" onClick={sendToParent}>
+        <span className="icon icon_favourite_container" onClick={sendToParent}>
           <i className="fa fa-heart icon_favourite" style={{ color: isFavourite ? 'red' : 'grey' }}></i>
-        </a>
+        </span>
       }
     </div>
   )

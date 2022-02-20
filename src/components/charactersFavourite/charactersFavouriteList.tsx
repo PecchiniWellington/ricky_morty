@@ -48,7 +48,7 @@ const CharactersFavouriteList = () => {
     } else {
       setFav([])
     }
-  }, [])
+  }, [getLocalStorageValue])
   return (
     <>
       {contentModal && <Modal open={openModal} onOpenModal={openDetail} contentModal={contentModal}/>}
@@ -56,7 +56,7 @@ const CharactersFavouriteList = () => {
       {currentCharacter.length >= 1 ? currentCharacter?.map((character: ICharacter, i: number) =>
         <div key={i} className='character_favourite_list_container'>
           <CharacterCard onOpenDetail={() => openDetail(character)} favouriteCard={true} character={character} />
-        </div>
+        </div> 
       ) : <div>No favorite characters yet</div>}
       <SimplePagination
         postsPerPage={postsPerPage}

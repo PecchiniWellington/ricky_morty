@@ -15,9 +15,9 @@ const Header = () => {
     <nav className={`topnav ${responsive}`} id="myTopnav">
       <CustomLink to={AppRoutes.characterListPage}>Home</CustomLink>
       <CustomLink to={AppRoutes.characterFavouritesPage}>Favourites</CustomLink>
-      <a className="icon" onClick={() => toggleMenu()}>
+      <span className="icon" onClick={() => toggleMenu()}>
         <i className="fa fa-bars"></i>
-      </a>
+      </span>
     </nav>
   )
 }
