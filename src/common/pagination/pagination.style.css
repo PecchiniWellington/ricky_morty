@@ -1,0 +1,23 @@
+.pagination_container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center
+}
+
+.pagination_prev_next_page {
+    border: 1px solid #333;
+    padding: 5px;
+    cursor: pointer
+}
+
+.pages_list {
+    border: 1px solid #333;
+    padding: 5px;
+    cursor: pointer
+}
+
+.active {
+    background-color: cadetblue;
+    color: #fafafa;
+}

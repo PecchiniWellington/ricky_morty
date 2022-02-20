@@ -1,0 +1,17 @@
+.character_list_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.field_character_detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field_character_detail label {
+    margin-right: 10px;
+}

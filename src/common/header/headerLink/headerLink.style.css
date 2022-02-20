@@ -1,0 +1,29 @@
+.active {
+    background-color: blue;
+    color: white;
+}
+
+.link {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.link:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .link:not(:first-child) {
+        display: none;
+    }
+    .link.icon {
+        float: right;
+        display: block;
+    }
+}

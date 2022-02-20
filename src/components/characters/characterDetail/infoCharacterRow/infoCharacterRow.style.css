@@ -1,0 +1,8 @@
+.infoCharacterRow_container {
+    display: flex
+}
+
+.infoCharacterRow_content {
+    font-weight: bold;
+    margin-right: 5px
+}
